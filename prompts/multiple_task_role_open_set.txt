@@ -1,0 +1,100 @@
+## Input
+* Up to 8 sub-images, each with a 2-pixel cyan box framing the **same target**.
+
+---
+
+### Core Rules
+
+1. Pick **one object** fully enclosed by **all** cyan boxes.
+   * If several objects lie inside, choose the one whose outline most snugly fits the rectangle in *every* view.
+   * Treat an entire surface as the target **only** when the box unmistakably frames that surface itself, not loose items that merely rest on it.
+2. Ignore minor perspective tilt and faint / missing shadows.
+3. Unless clearly floating, assume the target rests on or is fixed to nearby structures.
+4. Combine functional clues with shape when classifying.
+
+---
+
+### 1 Identify
+
+* Verify that the boxed object is identical in every view, then apply the **Enclosure Test** (tightest outline wins).
+* Use essential visual traits—overall geometry, texture, cap/neck, mounting hardware—to name the object class.
+
+---
+
+### 2 Per-View State
+
+Record each view in one short line:
+```
+View 1: …
+View 2: …
+```
+Mention position / gaps / cleanliness-of-target / power / residue-on-target …
+
+---
+
+### 3 Global State
+
+* **Powered?** Water, flame, light, glow, heat shimmer, or steam visible → *on*; else *off*.
+* **Open / Closed?**:
+  - Look for a **true gap**: a visible dark space or interior view between door/drawer and frame—not just a slim seam line or shading.
+  - Only mark **ajar / open** when a consistent gap appears in *several* views **and** the object is clearly rotated or offset from its frame.
+* **Dirty / Full / Blocked?**:
+  - Mark **dirty** only if the contaminant sits on the target itself.
+  - Mark **full** when the target is a container whose contents reach or exceed its rim / opening.
+* **Orientation**:
+  - Wall-mounted: *tilted* only if mis-aligned > 10 ° in most views.
+  - Free-standing: *lying* only if the main axis deviates > 30 ° from vertical in most views **and** the base is not flat on a level surface.
+  - One clear orthogonal view sets the baseline.
+
+> If every view shows the object idle, shut, and clean, treat the scene as “rest mode” (occupant away).
+
+---
+
+### 4 Task Selection
+
+* **Core Objective**: Decide what a reasonable home robot should do **directly to the target**.
+* **Scope & Constraints**:
+  - Tasks must apply **to the target itself**, not to the other objects in the scene.
+  - Do **not** assign cleaning tasks when residue or mess is confined to objects resting **on** the target but not on the target surface itself.*
+  - Only include tasks that are **strictly necessary**. If the target is already in a proper state, indicate that it should remain as is.
+* **Priority**:
+  - If multiple tasks are sensible, list them in **priority order** (most urgent or safety-critical first).
+* **Naming Guidelines**:
+  - Format: **Hyphenated-string** (replace spaces with hyphens).
+  - Length: **1-3 words** per task string.
+  - Style: Use **imperative English verbs** (base form, lowercase).
+  - Abstraction Level: Define **high-level** goals (focus on the intent of the action) rather than splitting them into low-level motion sequences.
+
+
+
+---
+
+### 5 Evidence
+
+Bullet the decisive cues—hinges, gaps, residue **on target**, fullness at rim, alignment, etc.—and note any ambiguity.
+
+---
+
+### 6 JSON Output Format
+
+```json
+{
+  "target": "<1-2 words>",
+  "description": "<brief phrase>",
+  "task": ["<task1>", …],
+  "reason": "<concise rationale>"
+}
+```
+
+If unsure what the object is, output:
+
+```json
+{
+  "target": "uncertain",
+  "description": "<brief phrase>",
+  "task": ["uncertain"],
+  "reason": "<concise rationale>"
+}
+```
+
+— Keep reasoning direct, evidence-based, and laser-focused on the boxed target.
