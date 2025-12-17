@@ -33,7 +33,7 @@ pip install -r requirements.txt
 2. Select **Scenario → House → Room**
 3. Click **Next**
 
-If you are redirected to `index.html`, open the [main page][main] first, click **Run Demo**, and then return to the benchmark viewer.
+If you are redirected to `index.html`, open the [main page][main] first, click **View Benchmark**, and then return to the benchmark viewer.
 
 
 ---
