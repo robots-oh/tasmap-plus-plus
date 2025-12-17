@@ -23,8 +23,8 @@ pip install -r requirements.txt
 ## Benchmark Website
 
 ### Quick Links
-- ▶️ **Viewer**: [Run Benchmark Viewer][viewer]
 - 🏠 **Main**: [Open Main Page][main]
+- ▶️ **Viewer**: [Run Benchmark Viewer][viewer]
 - ✍️ **Annotation**: [Test Annotation Workflow][annot]
 
 
@@ -51,8 +51,8 @@ Log in with **Test credentials**.
 
 ---
 
-[viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true
 [main]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
-[annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
+[viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true
+[annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html#login
 
   
