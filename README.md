@@ -33,15 +33,16 @@ pip install -r requirements.txt
 2. Select **Scenario → House → Room**
 3. Click **Next**
 
-If you are redirected to `index.html`, open the [main page][main] first, click **View Benchmark**, and then return to the benchmark viewer.
+If you are redirected to [main page][main], click **View Benchmark**, and then return to the benchmark viewer.
 
 
 ---
 
 ### Annotation Workflow
 1. Click [Test Annotation Workflow][annot]
-2. Click **Start Annotation**
-3. Enter your name and date of birth to log in, then click **Start**.
+2. Enter your name and date of birth to log in, then click **Start**.
+3. 
+If you are redirected to [main page][main], click **Start Annotation**, and then return to the annotation workflow.
 
 ⚠️ Annotation collection has ended, but you can still test the annotation flow.
 Log in with **Test credentials**.
