@@ -20,17 +20,17 @@ pip install -r requirements.txt
 
 
 
-## Benchmark Website
+<!-- ## Benchmark Website
 
 ### Benchmark Viewer
 
-Open the benchmark selector:
+Open the link below:
 
-* [http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true)
+* [Benchmark Viewer](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true)
 
 If you are redirected to `index.html`, open the main page first, click **Run Demo**, and then proceed:
 
-* [http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html)
+* [Main Page](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html)
 
 Next, select **Scenario → House → Room**, then click **Next** to view the benchmark.
 
@@ -41,10 +41,45 @@ Annotation collection has ended, but you can still test the annotation flow.
 
 1. Open:
 
-   * [http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html)
+   * [Annotation Workflow](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html)
 2. Click **Start Annotation** and log in with:
 
    * **Name**: `anonymous`
-   * **User ID**: `20250101`
+   * **User ID**: `20250101` -->
+
+## Benchmark Website
+
+### Quick Links
+- ▶️ **Viewer**: [Run Benchmark Viewer][viewer]
+- 🏠 **Main**: [Open Main Page][main]
+- ✍️ **Annotation**: [Test Annotation Workflow][annot]
+
+
+### Benchmark Viewer
+1. Click [Run Benchmark Viewer][viewer]
+2. Select **Scenario → House → Room**
+3. Click **Next**
+
+If you are redirected to `index.html`, open the [main page][main] first, click **Run Demo**, and then return to the benchmark viewer.
+
+
+---
+
+### Annotation Workflow
+1. Click [Test Annotation Workflow][annot]
+2. Click **Start Annotation**
+3. Enter your name and date of birth to log in, then click **Start**.
+
+⚠️ Annotation collection has ended, but you can still test the annotation flow.
+Log in with **Test credentials**.
+
+- **Test credentials**: `anonymous` / `20250101`
+
+
+---
+
+[viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true
+[main]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
+[annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
 
   
