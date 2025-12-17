@@ -41,7 +41,7 @@ If you are redirected to [main page][main], click **View Benchmark**, and then r
 ### Annotation Workflow
 1. Click [Test Annotation Workflow][annot]
 2. Enter your name and date of birth to log in, then click **Start**.
-3. 
+
 If you are redirected to [main page][main], click **Start Annotation**, and then return to the annotation workflow.
 
 ⚠️ Annotation collection has ended, but you can still test the annotation flow.
