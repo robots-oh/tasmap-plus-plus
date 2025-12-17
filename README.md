@@ -20,33 +20,6 @@ pip install -r requirements.txt
 
 
 
-<!-- ## Benchmark Website
-
-### Benchmark Viewer
-
-Open the link below:
-
-* [Benchmark Viewer](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true)
-
-If you are redirected to `index.html`, open the main page first, click **Run Demo**, and then proceed:
-
-* [Main Page](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html)
-
-Next, select **Scenario → House → Room**, then click **Next** to view the benchmark.
-
----
-### Annotation Workflow (Test Only)
-
-Annotation collection has ended, but you can still test the annotation flow.
-
-1. Open:
-
-   * [Annotation Workflow](http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html)
-2. Click **Start Annotation** and log in with:
-
-   * **Name**: `anonymous`
-   * **User ID**: `20250101` -->
-
 ## Benchmark Website
 
 ### Quick Links
