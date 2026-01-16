@@ -8,7 +8,10 @@ This repository provides:
   - an **annotation workflow** originally used for data collection (collection is closed, but a test login is available).
 
 
+
+
 ## Environment Setup
+### Quick Demo
 ```bash
 # create conda environment
 conda create -n tasmap_plus_plus python=3.8 -y
@@ -16,7 +19,26 @@ conda activate tasmap_plus_plus
 
 # install dependencies
 pip install -r requirements.txt
+
+# quick demo
+python tasmap_pp/demo_task_assignment.py
 ```
+
+### Data Collection
+Please see [README](https://github.com/robots-oh/tasmap-plus-plus/tree/main/data_collection) in `data_collection` folder.
+<!-- ```bash
+sudo ./data_collection/run_docker.sh
+``` -->
+
+### Run TASMap++
+Please see [README](https://github.com/robots-oh/tasmap-plus-plus/tree/main/tasmap_pp) in `tasmap_pp` folder.
+<!-- ```bash
+sudo ./tasmap_pp/run_docker.sh
+``` -->
+
+
+
+
 
 
 
@@ -50,10 +72,17 @@ Log in with **Test credentials**.
 - **Test credentials**: `anonymous` / `20250101`
 
 
----
 
 [main]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
 [viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true
 [annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html#login
 
   
+## TODO
+- [x] Add demo execution.
+- [x] Provide benchmark website.
+- [ ] Add data collection code by loading scenes.
+- [ ] Add TASMap++ execution code.
+- [ ] Upload the TASMap++ benchmark.
+- [ ] Add context-aware grounding code.
+<!-- - [ ] Merge Docker containers into a single container. -->

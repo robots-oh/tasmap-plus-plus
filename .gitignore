@@ -1,2 +1,8 @@
 config.yaml
 **/results/*.png
+
+
+**/__pycache__/*
+og_data
+data/**/frames
+data/**/tasmap_pp_results

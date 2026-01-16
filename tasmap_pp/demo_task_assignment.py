@@ -10,6 +10,8 @@ import yaml
 import argparse 
 import shutil 
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
 try:
     with open("config.yaml") as f:
         config = yaml.full_load(f)
@@ -116,15 +118,21 @@ def main():
     parser.add_argument(
         "--prompt_file",
         type=str,
-        default="prompts/multiple_task_role.txt",
+        default=f"{script_dir}/prompts/multiple_task_role.txt",
         help="Path to the prompt file."
+    )
+    parser.add_argument(
+        "--data_dir",
+        type=str,
+        default="data/demo_scenes",
+        help="Path to the data directory."
     )
     args = parser.parse_args()
 
     prompt_file = args.prompt_file
+    data_dir = args.data_dir
     messages = get_messages(prompt_file)
 
-    data_dir = "data"
     scene = choose_from_options(os.listdir(data_dir), "Scenario", random_selection=False)
     house = choose_from_options(os.listdir(os.path.join(data_dir, scene)), "House", random_selection=False)
     stitched_images_dir = os.path.join(data_dir, scene, house, "stitched_images")
