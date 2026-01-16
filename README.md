@@ -18,7 +18,7 @@ conda create -n tasmap_plus_plus python=3.8 -y
 conda activate tasmap_plus_plus
 
 # install dependencies
-pip install -r requirements.txt
+pip install -r tasmap_pp/requirements.txt
 
 # quick demo
 python tasmap_pp/demo_task_assignment.py
