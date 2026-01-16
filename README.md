@@ -1,6 +1,21 @@
 # Task-Aware Semantic Map++: Cost-Efficient Task Assignment with Advanced Benchmark
 
 
+| [**Project Page**](https://github.com/robots-oh/tasmap-plus-plus) |
+<!-- [**Paper**]() |
+[**ArXiv**]() |
+[**Video**]() -->
+
+
+[Daewon Choi](https://sites.google.com/view/robots-oh/members#h.2cy2g7krx7mb)\*,
+[Soeun Hwang](https://sites.google.com/view/robots-oh/members#h.oc8l44mgli6o)\*,
+[Yoonseon Oh](https://sites.google.com/view/robots-oh/yoonseon-oh)
+
+
+<!-- ![TASMap++ Figure](./assets/tasmap_plus_plus.png) -->
+
+
+## Updates
 This repository provides:
 - A **task assignment demo** (closed-set and open-set),
 - A **interactive website** with two modes:
