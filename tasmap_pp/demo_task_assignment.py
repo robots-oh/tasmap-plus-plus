@@ -13,13 +13,13 @@ import shutil
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 try:
-    with open("config.yaml") as f:
+    with open("tasmap_pp/configs/demo_config.yaml") as f:
         config = yaml.full_load(f)
     API_KEY = config["openai_api_key"]
 except:
     API_KEY = input("Please enter your OpenAI API key: ").strip()
     config = {"openai_api_key": API_KEY}
-    with open("config.yaml", "w") as f:
+    with open("tasmap_pp/configs/demo_config.yaml", "w") as f:
         yaml.dump(config, f)
 
 client = OpenAI(api_key=API_KEY)

@@ -9,7 +9,6 @@ def convert_to_fewshot_messages(file_path, messages):
 
     entries = [entry.strip() for entry in raw_text.split('---') if entry.strip()]
 
-    # Few-shot 예시 추가
     for entry in entries:
         user_prompt = {
             "role": "user",
@@ -28,7 +27,6 @@ def convert_to_fewshot_messages(file_path, messages):
 def get_prompts():
     messages = []
     
-    # 시스템 프롬프트
     with open(os.path.join(script_dir, 'multiple_task_role.txt'), 'r', encoding='utf-8') as f:
         role = f.read()
     system_prompt = {
@@ -42,10 +40,6 @@ def get_prompts():
     }
     messages.append(system_prompt)
 
-    # messages = convert_to_fewshot_messages(os.path.join(script_dir, 'fewshots.txt'), messages)
-
-    # with open(os.path.join(script_dir, 'prompt.txt')) as pt: 
-    #     prompt = pt.read()
     prompt = ""
     
     return messages, prompt
@@ -55,7 +49,6 @@ def get_prompts():
 def get_messages(prompt_path):
     messages = []
     
-    # 시스템 프롬프트
     with open(prompt_path, 'r', encoding='utf-8') as f:
         role = f.read()
     system_prompt = {
@@ -91,5 +84,3 @@ def get_prompt_for_response():
     
     return messages
 
-if __name__=="__main__":
-    get_prompts()

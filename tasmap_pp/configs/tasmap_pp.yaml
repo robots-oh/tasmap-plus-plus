@@ -1,0 +1,22 @@
+
+
+camera_config:
+  camera_height: 1024
+  camera_width: 1024
+  focal_length: 17
+  horiz_aperture: 20.955
+  vert_aperture: 15.2908
+
+
+open_ai:
+  api_key: "YOUR_API_KEY_HERE"
+  model_name: "o4-mini-2025-04-16"  # 'o4-mini-2025-04-16' gpt-4o-2024-11-20, gpt-4o, chatgpt-4o-latest, gpt-4-turbo, gpt-4.1-2025-04-14, gpt-4.1
+
+data_path:
+  root_env_dir: "/workspace/data/scenes"
+  if_root_env_dir: "/workspace/tasmap_pp/results"
+  log_file_path: "/workspace/data/scenes/tasmap_pp_log.json"
+
+evaluation:
+  benchmark_root_dir: "/workspace/tasmap_pp/benchmark"
+  all_classes: [1,2,3,4,5,6,7,8,9,10,11,12]

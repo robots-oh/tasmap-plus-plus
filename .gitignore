@@ -1,8 +1,20 @@
-config.yaml
-**/results/*.png
-
-
 **/__pycache__/*
+
 og_data
+
+
+# Results
+**/results/*.png
 data/**/frames
-data/**/tasmap_pp_results
+tasmap_pp/results/
+tasmap_pp/eval_outputs/
+
+
+
+# Check
+tasmap_pp/test/
+data/house_json
+data/obj_data
+data/scenes
+data_collection/
+tasmap_pp/weights/Mask2Former_hornet_3x_576d0b.pth
