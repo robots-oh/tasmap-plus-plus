@@ -109,7 +109,7 @@ class TMPPInference:
             return None
 
 
-    def run(self, max_workers=None):
+    def run(self, max_workers=1):
         # if os.path.exists(self.save_gpt_path):
         #     shutil.rmtree(self.save_gpt_path)
         os.makedirs(self.if_result_dir, exist_ok=True)
@@ -128,7 +128,7 @@ class TMPPInference:
         mesh = o3d.io.read_triangle_mesh(self.point_cloud_path)
         scene_points = np.asarray(mesh.vertices)
         messages, _ = get_prompts()
-        if max_workers is None:
+        if max_workers==1:
 
             pbar = tqdm(total=len(object_dict), dynamic_ncols=True, desc=f"[{self.seq_name}] Inferencing")
             for key, value in object_dict.items():
