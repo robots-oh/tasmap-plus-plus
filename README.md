@@ -1,7 +1,7 @@
 # Task-Aware Semantic Map++: Cost-Efficient Task Assignment with Advanced Benchmark
 
 
-| [**Project Page**](https://robots-oh.github.io/tasmap_pp/) | [**Paper**](https://github.com/robots-oh/tasmap-plus-plus)
+| [**Project Page**](https://robots-oh.github.io/tasmap_pp/) | [**Paper**](https://github.com/robots-oh/tasmap-plus-plus) |
 
 
 [Daewon Choi](https://sites.google.com/view/robots-oh/members#h.2cy2g7krx7mb)\*,
