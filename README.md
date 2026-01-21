@@ -18,9 +18,10 @@
 ## Updates
 This repository provides:
 - A **task assignment demo** (closed-set and open-set),
-- A **interactive website** with two modes:
+- A **interactive website** including:
+  - an **annotation workflow** originally used for data collection (collection is closed, but a test login is available), 
   - a **benchmark viewer** for browsing benchmarks, and
-  - an **annotation workflow** originally used for data collection (collection is closed, but a test login is available).
+  - a **TASMap++ result viewer** for browsing TASMap++ results.
 
 
 
@@ -57,39 +58,47 @@ sudo ./tasmap_pp/run_docker.sh
 
 
 
-## Benchmark Website
+## Interactive Website
 
 ### Quick Links
 - 🏠 **Main**: [Open Main Page][main]
-- ▶️ **Viewer**: [Run Benchmark Viewer][viewer]
 - ✍️ **Annotation**: [Test Annotation Workflow][annot]
+- ▶️ **Benchmark Viewer**: [Run Benchmark Viewer][bench_viewer]
+- 🔎 **Result Viewer**: [Run TASMap++ Result Viewer][result_viewer]
 
-
-### Benchmark Viewer
-1. Click [Run Benchmark Viewer][viewer]
-2. Select **Scenario → House → Room**
-3. Click **Next**
-
-If you are redirected to [main page][main], click **View Benchmark**, and then return to the benchmark viewer.
-
-
----
+If you are redirected to the [main page][main], click the appropriate button (Start Annotation / View Benchmark / View TASMap++ Results), then resume the process.
 
 ### Annotation Workflow
-1. Click [Test Annotation Workflow][annot]
+1. Click [Start Annotation][annot]
 2. Enter your name and date of birth to log in, then click **Start**.
-
-If you are redirected to [main page][main], click **Start Annotation**, and then return to the annotation workflow.
 
 ⚠️ Annotation collection has ended, but you can still test the annotation flow.
 Log in with **Test credentials**.
-
 - **Test credentials**: `anonymous` / `20250101`
 
 
 
+
+### Benchmark Viewer
+1. Click [View Benchmark][bench_viewer]
+2. Select **Scenario → House → Room**
+3. Click **Next**
+
+
+
+
+### TASMap++ Result Viewer
+1. Click [View TASMap++ Results][bench_viewer]
+2. Select **Scenario → House → Room**
+3. Click **Next**
+
+
+
+
+
 [main]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
-[viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?demo=true
+[bench_viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?mode=bench
+[result_viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?mode=results
 [annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html#login
 
   
