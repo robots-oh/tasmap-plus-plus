@@ -97,7 +97,7 @@ Log in with **Test credentials**.
 - [x] Add demo execution.
 - [x] Provide benchmark website.
 - [ ] Add data collection code by loading scenes.
-- [ ] Add TASMap++ execution code.
+- [x] Add TASMap++ execution code.
 - [ ] Upload the TASMap++ benchmark.
 - [ ] Add context-aware grounding code.
 <!-- - [ ] Merge Docker containers into a single container. -->
