@@ -4,7 +4,7 @@
 | [**Project Page**](https://robots-oh.github.io/tasmap_pp/) | [**Paper**](https://ieeexplore.ieee.org/abstract/document/11361083) |
 
 
-[Daewon Choi](https://sites.google.com/view/robots-oh/members#h.2cy2g7krx7mb)\*,
+[Daewon Choi](https://choibigo.github.io/space/)\*,
 [Soeun Hwang](https://sites.google.com/view/robots-oh/members#h.oc8l44mgli6o)\*,
 [Yoonseon Oh](https://sites.google.com/view/robots-oh/yoonseon-oh)
 
