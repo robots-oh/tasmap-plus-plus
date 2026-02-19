@@ -1,0 +1,668 @@
+{
+    "breakfast_table_bhszwe_3": {
+        "class_name": "DatasetObject",
+        "joints": {},
+        "ori": [
+            0.0,
+            0.0,
+            -0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -0.9272729331970213,
+            -1.1634367027282715,
+            0.6956720948219299
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "task": [
+            "wipe"
+        ],
+        "type": "static",
+        "state": null
+    },
+    "cus_floors_cojzzz_0": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            1.0185241716698101e-07,
+            -5.1498413089490214e-08,
+            -0.05000000074505806
+        ],
+        "scale": [
+            3.7206999999999995,
+            3.1399999999999997,
+            0.1
+        ],
+        "task": [
+            "mop",
+            "vacuum"
+        ],
+        "texture": "floor_3",
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "shelf_jpdtvg_1": {
+        "class_name": "DatasetObject",
+        "joints": {},
+        "ori": [
+            0.0,
+            0.0,
+            1.0,
+            6.123234262925839e-17
+        ],
+        "pos": [
+            1.6029541318893434,
+            -0.8465323963165283,
+            0.9667178988456726
+        ],
+        "scale": [
+            1,
+            0.931951799732376,
+            1.1888549098462498
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "type": "static",
+        "state": null
+    },
+    "shelf_kdnyfh_0": {
+        "class_name": "DatasetObject",
+        "joints": {},
+        "ori": [
+            0.0,
+            0.0,
+            -0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            1.1062108104705812,
+            1.360358901977539,
+            0.29361340403556824
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "type": "static",
+        "state": null
+    },
+    "swivel_chair_wksozf_4": {
+        "class_name": "DatasetObject",
+        "joints": {},
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            -0.9096628601074217,
+            -0.6391794004440308,
+            0.48121094703674316
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "type": "static",
+        "state": null
+    },
+    "pot_plant_yvuagy_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            1.1618612831115724,
+            1.3701366863250732,
+            0.5371147990226746
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "leave_static"
+        ],
+        "state": null,
+        "type": "static"
+    },
+    "table_lamp_uupwiq_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -1.5884267265319822,
+            -1.298491171836853,
+            1.0064091682434082
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            -0.7071067811865474,
+            0.7071067811865477
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "leave_static"
+        ],
+        "state": null,
+        "type": "static"
+    },
+    "door_pzgdls_0": {
+        "class_name": "DatasetObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            1.8332488363265993,
+            0.3712899169921875,
+            1.25
+        ],
+        "scale": [
+            0.3901142,
+            1.01035538,
+            1.01049902
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "joints": {},
+        "state": null
+    },
+    "window_iwcqsz_0": {
+        "class_name": "DatasetObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.8355542594909666,
+            -0.6029240407943726,
+            1.600000023841858
+        ],
+        "scale": [
+            0.9472126081105318,
+            1.2113869776312913,
+            0.8419660233168691
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_0": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            1.0,
+            6.123234262925839e-17
+        ],
+        "pos": [
+            -0.006111520004272286,
+            -1.5700000443458557,
+            1.399999976158142
+        ],
+        "scale": [
+            3.808476733681174,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_1": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7104612842861889,
+            -0.703736288342742
+        ],
+        "pos": [
+            1.854238373565674,
+            -0.9273839511871338,
+            1.399999976158142
+        ],
+        "scale": [
+            1.3852903652925763,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_3": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            1.0185241716698101e-07,
+            1.5699998817443848,
+            1.399999976158142
+        ],
+        "scale": [
+            3.8206999999999995,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_5": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            1.8603499954223635,
+            1.2206448993682861,
+            1.399999976158142
+        ],
+        "scale": [
+            0.798709944258368,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_6": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            1.8603499954223635,
+            -0.20673900032043457,
+            1.399999976158142
+        ],
+        "scale": [
+            0.25605781413141493,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_8": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            1.8603499954223635,
+            0.3712899169921875,
+            2.5
+        ],
+        "scale": [
+            0.9000000000000001,
+            0.1,
+            0.5999999999999996
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_9": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.8603497917175291,
+            -1.3123871603012085,
+            1.399999976158142
+        ],
+        "scale": [
+            0.6152258024340975,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_10": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.8603497917175291,
+            0.7576128921508789,
+            1.399999976158142
+        ],
+        "scale": [
+            1.7247741975659023,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_11": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.8603497917175291,
+            -0.5547742166519165,
+            0.6000000238418579
+        ],
+        "scale": [
+            0.9000000000000001,
+            0.1,
+            1.2000000000000002
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_12": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.8603497917175291,
+            -0.5547742166519165,
+            2.4000000953674316
+        ],
+        "scale": [
+            0.9000000000000001,
+            0.1,
+            0.7999999999999998
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "piano_bnxcvw_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -1.0546909744262694,
+            1.2374495944976807,
+            0.6157745718955994
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1,
+            1,
+            1.1
+        ],
+        "joints": {},
+        "task": [
+            "leave"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "music_stool_qwqxew_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -1.0021001274108885,
+            0.627119966506958,
+            0.1732500046491623
+        ],
+        "ori": [
+            0.9995393332604114,
+            0.0,
+            0.0,
+            0.03034997965949912
+        ],
+        "scale": [
+            1,
+            0.9,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "reorient"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "liquid_cojaaf_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            -0.6161683971405028,
+            -1.1601630964279175,
+            0.7382120490074158
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.7132504231471039,
+            0.7009092907648443
+        ],
+        "scale": [
+            0.6,
+            0.6,
+            0.2
+        ],
+        "joints": {},
+        "task": [
+            "wipe"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "particles_cojagi_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            0.9504540985107424,
+            -0.9553014554977417,
+            -0.00805419497191906
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.9655250409813289,
+            -0.26031019042289366
+        ],
+        "scale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "joints": {},
+        "task": [
+            "vacuum"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "liquid_cojabi_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            0.031410080718994315,
+            0.6685199222564697,
+            -0.00409523444250226
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            -0.07845909308725618,
+            0.9969173339409468
+        ],
+        "scale": [
+            1,
+            1,
+            0.2
+        ],
+        "joints": {},
+        "task": [
+            "mop"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "trash_can_cjmezk_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            1.085746866989136,
+            -1.3080142059326172,
+            0.14187930524349213
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            0.7,
+            0.7,
+            0.7
+        ],
+        "joints": {},
+        "task": [
+            "leave",
+            "wipe"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "bottle_of_disinfectant_faedff_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            0.2657400196075441,
+            0.5238599262237549,
+            0.032528843730688095
+        ],
+        "ori": [
+            5.551115028122493e-17,
+            -0.7071067811865474,
+            5.551115028122494e-17,
+            0.7071067811865477
+        ],
+        "scale": [
+            1.5,
+            1.5,
+            1.5
+        ],
+        "joints": {},
+        "task": [
+            "relocate",
+            "dispose"
+        ],
+        "state": null,
+        "type": "mobile"
+    }
+}

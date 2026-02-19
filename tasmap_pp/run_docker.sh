@@ -2,9 +2,9 @@
 # sudo ./tasmap_pp/run_docker.sh
 set -e -o pipefail
 
-SCRIPT_DIR=$( cd -- $(realpath "${BASH_SOURCE[0]}" | xargs dirname | xargs dirname) &> /dev/null && pwd )
-WORKSPACE_PATH="$SCRIPT_DIR/tasmap_pp"
-DATA_PATH="$SCRIPT_DIR/data"
+ROOT_DIR=$( cd -- $(realpath "${BASH_SOURCE[0]}" | xargs dirname | xargs dirname) &> /dev/null && pwd )
+WORKSPACE_PATH="$ROOT_DIR/tasmap_pp"
+DATA_PATH="$ROOT_DIR/data"
 GUI=true
 
 

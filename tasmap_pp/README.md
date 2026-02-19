@@ -9,7 +9,7 @@ sudo ./run_docker.sh
 ```
 
 ## Dataset
-The dataset will be released later after confirming the license.
+Please see [README](https://github.com/robots-oh/tasmap-plus-plus/tree/main/data_collection) in `data_collection` folder.
 
 ## Usage
 ```bash

@@ -1,0 +1,14 @@
+{
+    "floor_1":[".png", 2.5, 2.5],
+    "floor_2":[".jpg", 2.5, 2.5],
+    "floor_3":[".jpeg", 2, 2],
+    "floor_4":[".jpeg", 2, 2],
+    "floor_5":[".jpeg", 2, 2],
+    "floor_6":[".jpeg", 2, 2],
+    "floor_7":[".jpeg", 2, 2],
+    "floor_8":[".png", 4, 4],
+    "floor_9":[".jpg", 3, 3],
+    "floor_10":[".jpeg", 3, 3],
+    "walls_1":[".jpeg", 2, 2],
+    "walls_2":[".jpg", 2, 2]
+}

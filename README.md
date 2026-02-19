@@ -15,10 +15,11 @@
 ## Updates
 This repository provides:
 - A **task assignment demo** (closed-set and open-set),
-- A **interactive website** including:
+<!-- - A **interactive website** including:
   - an **annotation workflow** originally used for data collection (collection is closed, but a test login is available), 
   - a **benchmark viewer** for browsing benchmarks, and
-  - a **TASMap++ result viewer** for browsing TASMap++ results.
+  - a **TASMap++ result viewer** for browsing TASMap++ results. -->
+- Data collection and TASMap++ process.
 
 
 
@@ -39,15 +40,10 @@ python tasmap_pp/demo_task_assignment.py
 
 ### Data Collection
 Please see [README](https://github.com/robots-oh/tasmap-plus-plus/tree/main/data_collection) in `data_collection` folder.
-<!-- ```bash
-sudo ./data_collection/run_docker.sh
-``` -->
+
 
 ### Run TASMap++
 Please see [README](https://github.com/robots-oh/tasmap-plus-plus/tree/main/tasmap_pp) in `tasmap_pp` folder.
-<!-- ```bash
-sudo ./tasmap_pp/run_docker.sh
-``` -->
 
 
 
@@ -55,7 +51,8 @@ sudo ./tasmap_pp/run_docker.sh
 
 
 
-## Interactive Website
+
+<!-- ## Interactive Website 
 
 ### Quick Links
 - 🏠 **Main**: [Open Main Page][main]
@@ -96,13 +93,13 @@ Log in with **Test credentials**.
 [main]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html
 [bench_viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?mode=bench
 [result_viewer]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/select.html?mode=results
-[annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html#login
+[annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html#login -->
 
   
 ## TODO
 - [x] Add demo execution.
 - [x] Provide benchmark website.
-- [ ] Add data collection code by loading scenes.
+- [x] Add data collection code by loading scenes.
 - [x] Add TASMap++ execution code.
 - [ ] Upload the TASMap++ benchmark.
 - [ ] Add context-aware grounding code.

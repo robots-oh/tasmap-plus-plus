@@ -1,0 +1,671 @@
+{
+    "cus_floors_cojzzz_0": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            -2.2888183615066282e-07,
+            1.0337829570161716e-07,
+            -0.05000000074505806
+        ],
+        "scale": [
+            2.321699999999999,
+            3.4369999999999994,
+            0.1
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": "floor_10",
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "fridge_petcxr_0": {
+        "class_name": "DatasetObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -0.7580840492248537,
+            -1.2399429241180422,
+            0.7620730996131897
+        ],
+        "scale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "bottom_cabinet_ojceew_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            0.2519905662536619,
+            1.5530763706207273,
+            0.34495750069618225
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "leave_static"
+        ],
+        "state": null,
+        "type": "static"
+    },
+    "top_cabinet_eobsmt_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            0.18742538452148416,
+            1.557249649429321,
+            1.5652583837509155
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            2.2201328891970347,
+            0.9999999999999999,
+            0.9999999999999999
+        ],
+        "joints": {
+            "j_link_0": 0.8614252289333346
+        },
+        "task": [
+            "leave_static"
+        ],
+        "state": "open",
+        "type": "static"
+    },
+    "stove_qbjiva_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -0.7432024383544924,
+            -0.03789199981689473,
+            0.4498540163040161
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "scale": [
+            2.0,
+            2.0,
+            1.5821595855072488
+        ],
+        "joints": {
+            "flame": 0
+        },
+        "task": [
+            "leave_static"
+        ],
+        "state": "on",
+        "type": "static"
+    },
+    "commercial_kitchen_sink_nmxgbm_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -0.57300256729126,
+            1.467964514160156,
+            0.3629654347896576
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            -0.7071067811865474,
+            0.7071067811865477
+        ],
+        "scale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "joints": {},
+        "task": [
+            "leave_static"
+        ],
+        "state": null,
+        "type": "static"
+    },
+    "door_pzgdls_0": {
+        "class_name": "DatasetObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            1.1594765281677244,
+            1.1398571571350096,
+            1.25
+        ],
+        "scale": [
+            0.3901142,
+            1.01035538,
+            1.01049902
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "joints": {},
+        "state": null
+    },
+    "window_iwcqsz_0": {
+        "class_name": "DatasetObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.126009216308594,
+            0.13381729927062969,
+            1.600000023841858
+        ],
+        "scale": [
+            0.9472126081105318,
+            1.2113869776312913,
+            0.8419660233168691
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_0": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            1.0,
+            6.123234262925839e-17
+        ],
+        "pos": [
+            -0.30040000915527365,
+            -1.7184997955322268,
+            1.399999976158142
+        ],
+        "scale": [
+            1.8208999999999995,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_1": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            0.5600497817993162,
+            -0.5526498714447023,
+            1.399999976158142
+        ],
+        "scale": [
+            2.4316999999999998,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_2": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            1.0,
+            6.123234262925839e-17
+        ],
+        "pos": [
+            0.8604500389099119,
+            0.6132000526428221,
+            1.399999976158142
+        ],
+        "scale": [
+            0.7007999999999995,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_4": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "pos": [
+            -2.2888183615066282e-07,
+            1.7185000022888182,
+            1.399999976158142
+        ],
+        "scale": [
+            2.421699999999999,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_6": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            1.1608498191833494,
+            1.6791785797119139,
+            1.399999976158142
+        ],
+        "scale": [
+            0.1786428703308106,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_7": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            1.1608498191833494,
+            0.6265286048889158,
+            1.399999976158142
+        ],
+        "scale": [
+            0.12665712966918963,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_9": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865477,
+            -0.7071067811865474
+        ],
+        "pos": [
+            1.1608498191833494,
+            1.1398571571350096,
+            2.5
+        ],
+        "scale": [
+            0.8999999999999999,
+            0.1,
+            0.5999999999999996
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_10": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.1608502769470217,
+            -1.0182663360595705,
+            1.399999976158142
+        ],
+        "scale": [
+            1.5004669876223906,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_11": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.1608502769470217,
+            1.200233562850952,
+            1.399999976158142
+        ],
+        "scale": [
+            1.1365330123776087,
+            0.1,
+            2.8
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_12": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.1608502769470217,
+            0.18196712341308574,
+            0.6000000238418579
+        ],
+        "scale": [
+            0.8999999999999999,
+            0.1,
+            1.2000000000000002
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "cus_walls_cojzzy_13": {
+        "class_name": "BaseObject",
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "pos": [
+            -1.1608502769470217,
+            0.18196712341308574,
+            2.4000000953674316
+        ],
+        "scale": [
+            0.8999999999999999,
+            0.1,
+            0.7999999999999998
+        ],
+        "task": [
+            "leave_static"
+        ],
+        "texture": null,
+        "type": "static",
+        "state": null,
+        "joints": {}
+    },
+    "frying_pan_hzspwg_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -0.27197240829467795,
+            -0.6210745731353762,
+            0.022139746695756912
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.8346193259042707,
+            0.5508271787295003
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "relocate"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "stockpot_yvhmex_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            -0.8229429626464846,
+            0.1677836021423338,
+            0.7972439842492571
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.7071067811865474,
+            0.7071067811865477
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "leave"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "full_trash_can_cojaka_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            0.7142379379272459,
+            1.5218012174606321,
+            -0.0006045835325494409
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.9238795338677012,
+            0.38268342909041575
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "empty"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "dirty_bowl_cojagx_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            -0.32752720017544945,
+            1.4552435716628938,
+            0.5308024959831913
+        ],
+        "ori": [
+            -0.15761364789809426,
+            0.025226977839732104,
+            -0.9672450146901864,
+            0.19737937871599023
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "washing-up"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "dirty_plate_cojaha_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            -0.8848917388916018,
+            1.448854668998718,
+            0.507508397102356
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.6819983964502662,
+            0.7313536676870265
+        ],
+        "scale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "joints": {},
+        "task": [
+            "washing-up"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "dish_rack_kxuutl_0": {
+        "class_name": "DatasetObject",
+        "pos": [
+            0.2511971092224119,
+            1.5898254951477049,
+            0.7766165733337402
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "scale": [
+            1,
+            1,
+            1
+        ],
+        "joints": {},
+        "task": [
+            "leave"
+        ],
+        "state": null,
+        "type": "mobile"
+    },
+    "cloth_cojadb_0": {
+        "class_name": "CustomObject",
+        "pos": [
+            0.12035966873168924,
+            -1.5811225334167482,
+            -0.008702531456947327
+        ],
+        "ori": [
+            0.0,
+            0.0,
+            0.8090169764300561,
+            -0.5877852769914963
+        ],
+        "scale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "joints": {},
+        "task": [
+            "fold"
+        ],
+        "state": null,
+        "type": "mobile"
+    }
+}
