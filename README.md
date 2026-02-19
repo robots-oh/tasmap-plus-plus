@@ -11,6 +11,14 @@
 
 ![TASMap++ Figure](./assets/tasmap_plus_plus.jpg)
 
+## TODO
+- [x] Add demo execution.
+- [x] Provide benchmark website.
+- [x] Add data collection code by loading scenes.
+- [x] Add TASMap++ execution code.
+- [ ] Upload the TASMap++ benchmark.
+- [ ] Add context-aware grounding code.
+<!-- - [ ] Merge Docker containers into a single container. -->
 
 ## Updates
 This repository provides:
@@ -96,14 +104,6 @@ Log in with **Test credentials**.
 [annot]: http://ec2-43-201-242-118.ap-northeast-2.compute.amazonaws.com/index.html#login -->
 
   
-## TODO
-- [x] Add demo execution.
-- [x] Provide benchmark website.
-- [x] Add data collection code by loading scenes.
-- [x] Add TASMap++ execution code.
-- [ ] Upload the TASMap++ benchmark.
-- [ ] Add context-aware grounding code.
-<!-- - [ ] Merge Docker containers into a single container. -->
 
 
 ## Bibtex
