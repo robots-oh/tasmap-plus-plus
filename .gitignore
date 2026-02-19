@@ -8,7 +8,8 @@ og_data
 data/**/frames
 tasmap_pp/results/
 tasmap_pp/eval_outputs/
-
+data/scenes/capture_log.json
+data/scenes/tasmap_pp_log.json
 
 
 # Check

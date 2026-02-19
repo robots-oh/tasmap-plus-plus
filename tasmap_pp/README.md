@@ -2,6 +2,10 @@
 
 This folder contain the **execution pipeline** for TASMap++.
 
+## Download
+Download the CropFormer checkpoint [here](https://huggingface.co/datasets/qqlu1992/Adobe_EntitySeg/tree/main/CropFormer_model/Entity_Segmentation/Mask2Former_hornet_3x).
+
+
 ## Installation
 ```bash
 # create docker environment
