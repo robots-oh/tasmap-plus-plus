@@ -104,3 +104,15 @@ Log in with **Test credentials**.
 - [ ] Upload the TASMap++ benchmark.
 - [ ] Add context-aware grounding code.
 <!-- - [ ] Merge Docker containers into a single container. -->
+
+
+## Bibtex
+```bibtex
+@article{choi2026task,
+  title={Task-Aware Semantic Map++: Cost-Efficient Task Assignment with Advanced Benchmark},
+  author={Choi, Daewon and Hwang, Soeun and Oh, Yoonseon},
+  journal={IEEE Robotics and Automation Letters},
+  year={2026},
+  publisher={IEEE}
+}
+```
